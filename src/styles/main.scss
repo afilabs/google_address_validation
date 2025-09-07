@@ -1,0 +1,84 @@
+/* Main SCSS File - Import Bootstrap and component styles */
+
+/* Import component styles using @use - must be at the top */
+@use './components/AddressForm.scss';
+@use './components/Button.scss';
+@use './components/Alert.scss';
+@use './components/Card.scss';
+@use './components/Tag.scss';
+@use './components/FormattedAddress.scss';
+@use './components/VerdictSection.scss';
+@use './components/VerdictFlag.scss';
+@use './components/AddressComponents.scss';
+@use './components/AddressComponentsSection.scss';
+@use './components/AddressComponentsSummarySection.scss';
+@use './components/PostalAddressSection.scss';
+@use './components/MetadataSection.scss';
+@use './components/UspsSection.scss';
+@use './components/Divider.scss';
+
+/* Import Bootstrap */
+@import 'bootstrap/scss/bootstrap';
+
+/* Global styles */
+:root {
+  font-family: 'Figtree', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.app-shell {
+  border: 1px solid #dadce0;
+  border-radius: 12px;
+  min-height: 400px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.validation-wrapper {
+  padding: 24px;
+  background-color: #fff;
+}
+
+/* Typography */
+.h4 {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  margin: 0 0 6px;
+}
+
+.h3 {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  margin: 0 0 6px;
+}
+
+.h5 {
+  font-size: 16px;
+  margin: 0 0 6px;
+}
+
+.muted {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Utility classes */
+.row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab-pane {
+  width: 100%;
+}
+
+.text-large {
+  font-size: 16px;
+  line-height: 24px;
+}

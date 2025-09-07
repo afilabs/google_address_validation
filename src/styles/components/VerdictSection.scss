@@ -1,0 +1,26 @@
+/* VerdictSection Component Styles */
+
+.VerdictSection {
+  padding: 24px;
+}
+
+.flags-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.flag-line {
+  padding: 6px 8px;
+  background: #fafafa;
+  border: 1px dashed #e5e5e5;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag-line__icon {
+  font-weight: 700;
+}

@@ -1,0 +1,22 @@
+/* MetadataSection Component Styles */
+
+.MetadataSection {
+  padding: 24px;
+}
+
+/* Make all cards the same width in column layout */
+.MetadataSection .card {
+  width: 100%;
+}
+
+/* Ensure consistent spacing between cards */
+.MetadataSection .d-flex.flex-column.gap-3 > div {
+  width: 100%;
+}
+
+/* Style the row-between layout */
+.MetadataSection .row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+/* VerdictFlag Component Styles */
+
+.verdict-flag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.verdict-flag .icon {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.verdict-flag .text {
+  flex: 1;
+  line-height: 1.4;
+  font-size: 14px;
+}

@@ -1,0 +1,16 @@
+/* FormattedAddress Component Styles */
+
+.strip {
+  background: white;
+  border-bottom: 1px solid var(--demo-border-color, #dadce0);
+  padding: 24px;
+}
+
+.formatted-text {
+  color: var(--demo-formatted-address-color, #1967d2);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 8px;
+  word-break: break-word;
+}

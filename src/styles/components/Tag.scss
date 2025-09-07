@@ -1,0 +1,53 @@
+/* Tag Component Styles */
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  background: #E0E0E0;
+  font-weight: 500;
+}
+
+.tag--green {
+  background: #58A942;
+  color: #FFFFFF;
+}
+
+.tag--orange {
+  background: #FF7700;
+  color: #FFFFFF;
+}
+
+.tag--red {
+  background: #AA0C00;
+  color: #FFFFFF;
+}
+
+/* BoolPill Styles */
+.pill {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  font-weight: 500;
+}
+
+.pill--ok {
+  background: #f6ffed;
+  border-color: #b7eb8f;
+  color: #389e0d;
+}
+
+.pill--bad {
+  background: #fff1f0;
+  border-color: #ffa39e;
+  color: #a8071a;
+}
+
+.pill--info {
+  background: #f0f5ff;
+  border-color: #adc6ff;
+  color: #1d39c4;
+}
